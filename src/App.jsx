@@ -12,7 +12,7 @@ function App() {
       <main>
         {
           <div>
-          <div class="website_header">
+          <div className="website_header">
             <img src="Khajra_logo.jpg" alt="logo"></img>
             <h1>Khajra Model Rocketry at U of M</h1>
           </div>
