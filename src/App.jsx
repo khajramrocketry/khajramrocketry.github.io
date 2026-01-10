@@ -19,6 +19,8 @@ function App() {
             
           <p>We are an engineering project team specializing in launching rockets and 
             having our members learn the process of building and launching their own rockets</p>
+
+          <p>This is a test paragraph to see if anything has changed at all on the website</p>
           </div>
         }
       </main>
