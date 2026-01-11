@@ -11,7 +11,7 @@ function App() {
         {
           <div>
           <div className="website_header">
-            <img src="Khajra_logo.jpg" alt="logo"></img>
+            <img src="/khajramrocketry.github.io/Khajra_logo.jpg" alt="logo"></img>
             <h1>Khajra Model Rocketry at U of M</h1>
           </div>
             
