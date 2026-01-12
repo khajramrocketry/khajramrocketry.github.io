@@ -1,28 +1,19 @@
-import { useState } from 'react'
-import './App.css'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+import Resources from './Resources';
+import RocketData from './RocketData';
+import './App.css';
 
 function App() {
-
   return (
-    <>
-      <main>
-        {
-          <div>
-          <div className="website_header">
-            <img src="/Khajra_logo.jpg" alt="logo" className='logo_image'/>
-            <h1 className="title">Khajra Model Rocketry at U of M</h1>
-          </div>
-            
-          <p>We are an engineering project team specializing in launching rockets and 
-            having our members learn the process of building and launching their own rockets</p>
-
-          <p>This is a test paragraph to see if anything has changed at all on the website</p>
-          </div>
-        }
-      </main>
-
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/resources" element={<Resources />} />
+        <Route path="/rocket_data" element={<RocketData />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
