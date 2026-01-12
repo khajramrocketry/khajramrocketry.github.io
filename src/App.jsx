@@ -2,16 +2,15 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <header>Khajra Model Rocketry</header>
       <main>
         {
           <div>
           <div className="website_header">
-            <h1>Khajra Model Rocketry at U of M</h1>
+            <img src="/Khajra_logo.jpg" alt="logo" className='logo_image'/>
+            <h1 className="title">Khajra Model Rocketry at U of M</h1>
           </div>
             
           <p>We are an engineering project team specializing in launching rockets and 
